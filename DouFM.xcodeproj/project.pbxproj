@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0369CF5A2127BDCB00BDE38D /* FMAlbumPicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369CF592127BDCB00BDE38D /* FMAlbumPicView.swift */; };
+		03BC0D852127D6F600F4B7CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03BC0D872127D6F600F4B7CA /* InfoPlist.strings */; };
+		03D5226A21255BD10069A6AE /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5226921255BD10069A6AE /* StatusBarController.swift */; };
+		03D5226C21255CDE0069A6AE /* FMControlPanelMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5226B21255CDE0069A6AE /* FMControlPanelMenuManager.swift */; };
+		03D522712125645E0069A6AE /* FMControlPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5226F2125645E0069A6AE /* FMControlPanelViewController.swift */; };
+		03D522722125645E0069A6AE /* FMControlPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D522702125645E0069A6AE /* FMControlPanelViewController.xib */; };
+		03D52275212667620069A6AE /* FMUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D52274212667620069A6AE /* FMUtils.swift */; };
+		03D522792126AAFA0069A6AE /* NSImage+TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D522782126AAFA0069A6AE /* NSImage+TintColor.swift */; };
+		03E3D6E621252174001FA8F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E3D6E521252174001FA8F3 /* AppDelegate.m */; };
+		03E3D6E821252175001FA8F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E3D6E721252175001FA8F3 /* Assets.xcassets */; };
+		03E3D6EB21252175001FA8F3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E3D6E921252175001FA8F3 /* MainMenu.xib */; };
+		03E3D6EE21252175001FA8F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E3D6ED21252175001FA8F3 /* main.m */; };
+		03E3D6FA212526AF001FA8F3 /* FMWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3D6F8212526AF001FA8F3 /* FMWindowController.swift */; };
+		03E3D6FB212526AF001FA8F3 /* FMWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E3D6F9212526AF001FA8F3 /* FMWindowController.xib */; };
+		03E3D6FE212528B4001FA8F3 /* FMWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3D6FC212528B4001FA8F3 /* FMWebViewController.swift */; };
+		03E3D6FF212528B4001FA8F3 /* FMWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E3D6FD212528B4001FA8F3 /* FMWebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0369CF572125D45700BDE38D /* DouFM-Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DouFM-Release.entitlements"; sourceTree = "<group>"; };
+		0369CF592127BDCB00BDE38D /* FMAlbumPicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAlbumPicView.swift; sourceTree = "<group>"; };
+		03BC0D862127D6F600F4B7CA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		03BC0D892127D75100F4B7CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03BDAA812127D83F001A1287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03D5226921255BD10069A6AE /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		03D5226B21255CDE0069A6AE /* FMControlPanelMenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMControlPanelMenuManager.swift; sourceTree = "<group>"; };
+		03D5226F2125645E0069A6AE /* FMControlPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMControlPanelViewController.swift; sourceTree = "<group>"; };
+		03D522702125645E0069A6AE /* FMControlPanelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMControlPanelViewController.xib; sourceTree = "<group>"; };
+		03D52274212667620069A6AE /* FMUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMUtils.swift; sourceTree = "<group>"; };
+		03D522782126AAFA0069A6AE /* NSImage+TintColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+TintColor.swift"; sourceTree = "<group>"; };
+		03D52284212D03710069A6AE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		03E3D6E121252174001FA8F3 /* DouFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E3D6E421252174001FA8F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03E3D6E521252174001FA8F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03E3D6E721252175001FA8F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E3D6EA21252175001FA8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03E3D6EC21252175001FA8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E3D6ED21252175001FA8F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E3D6EF21252175001FA8F3 /* DouFM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DouFM.entitlements; sourceTree = "<group>"; };
+		03E3D6F7212526AE001FA8F3 /* DouFM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DouFM-Bridging-Header.h"; sourceTree = "<group>"; };
+		03E3D6F8212526AF001FA8F3 /* FMWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMWindowController.swift; sourceTree = "<group>"; };
+		03E3D6F9212526AF001FA8F3 /* FMWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMWindowController.xib; sourceTree = "<group>"; };
+		03E3D6FC212528B4001FA8F3 /* FMWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMWebViewController.swift; sourceTree = "<group>"; };
+		03E3D6FD212528B4001FA8F3 /* FMWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMWebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E3D6DE21252174001FA8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0369E2CC212A7C0E00D3E266 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				0369E2D3212A7CAD00D3E266 /* FMWindow */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		0369E2CD212A7C2100D3E266 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D6FC212528B4001FA8F3 /* FMWebViewController.swift */,
+				03E3D6FD212528B4001FA8F3 /* FMWebViewController.xib */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		0369E2CE212A7C4F00D3E266 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				03F5D6E0212A80AF00489FA3 /* Menu */,
+				03D5226921255BD10069A6AE /* StatusBarController.swift */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		0369E2D0212A7C7400D3E266 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				0369E2D1212A7C7F00D3E266 /* Pnael */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		0369E2D1212A7C7F00D3E266 /* Pnael */ = {
+			isa = PBXGroup;
+			children = (
+				0369E2D2212A7C8900D3E266 /* Views */,
+				03D5226F2125645E0069A6AE /* FMControlPanelViewController.swift */,
+				03D522702125645E0069A6AE /* FMControlPanelViewController.xib */,
+			);
+			path = Pnael;
+			sourceTree = "<group>";
+		};
+		0369E2D2212A7C8900D3E266 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0369CF592127BDCB00BDE38D /* FMAlbumPicView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0369E2D3212A7CAD00D3E266 /* FMWindow */ = {
+			isa = PBXGroup;
+			children = (
+				0369E2CD212A7C2100D3E266 /* VCs */,
+				03E3D6F8212526AF001FA8F3 /* FMWindowController.swift */,
+				03E3D6F9212526AF001FA8F3 /* FMWindowController.xib */,
+			);
+			path = FMWindow;
+			sourceTree = "<group>";
+		};
+		0388A23B212A7B6500F348E3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0369E2CE212A7C4F00D3E266 /* StatusBar */,
+				0369E2CC212A7C0E00D3E266 /* Windows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0388A23C212A7B6B00F348E3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D6ED21252175001FA8F3 /* main.m */,
+				03E3D6E921252175001FA8F3 /* MainMenu.xib */,
+				03E3D6E421252174001FA8F3 /* AppDelegate.h */,
+				03E3D6E521252174001FA8F3 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0388A23D212A7B7600F348E3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D6F7212526AE001FA8F3 /* DouFM-Bridging-Header.h */,
+				03D52274212667620069A6AE /* FMUtils.swift */,
+				03D522782126AAFA0069A6AE /* NSImage+TintColor.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0388A23E212A7BAB00F348E3 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D6E721252175001FA8F3 /* Assets.xcassets */,
+				03E3D6EC21252175001FA8F3 /* Info.plist */,
+				0369CF572125D45700BDE38D /* DouFM-Release.entitlements */,
+				03E3D6EF21252175001FA8F3 /* DouFM.entitlements */,
+				03BC0D872127D6F600F4B7CA /* InfoPlist.strings */,
+			);
+			name = Resoures;
+			sourceTree = "<group>";
+		};
+		03E3D6D821252174001FA8F3 = {
+			isa = PBXGroup;
+			children = (
+				03E3D6E321252174001FA8F3 /* DouFM */,
+				03E3D6E221252174001FA8F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E3D6E221252174001FA8F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D6E121252174001FA8F3 /* DouFM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E3D6E321252174001FA8F3 /* DouFM */ = {
+			isa = PBXGroup;
+			children = (
+				0388A23D212A7B7600F348E3 /* Common */,
+				0388A23C212A7B6B00F348E3 /* Main */,
+				0388A23B212A7B6500F348E3 /* App */,
+				0388A23E212A7BAB00F348E3 /* Resoures */,
+			);
+			path = DouFM;
+			sourceTree = "<group>";
+		};
+		03F5D6E0212A80AF00489FA3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0369E2D0212A7C7400D3E266 /* VCs */,
+				03D5226B21255CDE0069A6AE /* FMControlPanelMenuManager.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E3D6E021252174001FA8F3 /* DouFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E3D6F221252175001FA8F3 /* Build configuration list for PBXNativeTarget "DouFM" */;
+			buildPhases = (
+				03E3D6DD21252174001FA8F3 /* Sources */,
+				03E3D6DE21252174001FA8F3 /* Frameworks */,
+				03E3D6DF21252174001FA8F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DouFM;
+			productName = DouFM;
+			productReference = 03E3D6E121252174001FA8F3 /* DouFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E3D6D921252174001FA8F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FM;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = cissu;
+				TargetAttributes = {
+					03E3D6E021252174001FA8F3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 03E3D6DC21252174001FA8F3 /* Build configuration list for PBXProject "DouFM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 03E3D6D821252174001FA8F3;
+			productRefGroup = 03E3D6E221252174001FA8F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E3D6E021252174001FA8F3 /* DouFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E3D6DF21252174001FA8F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D522722125645E0069A6AE /* FMControlPanelViewController.xib in Resources */,
+				03BC0D852127D6F600F4B7CA /* InfoPlist.strings in Resources */,
+				03E3D6FF212528B4001FA8F3 /* FMWebViewController.xib in Resources */,
+				03E3D6E821252175001FA8F3 /* Assets.xcassets in Resources */,
+				03E3D6EB21252175001FA8F3 /* MainMenu.xib in Resources */,
+				03E3D6FB212526AF001FA8F3 /* FMWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E3D6DD21252174001FA8F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D5226C21255CDE0069A6AE /* FMControlPanelMenuManager.swift in Sources */,
+				03D522792126AAFA0069A6AE /* NSImage+TintColor.swift in Sources */,
+				03E3D6FE212528B4001FA8F3 /* FMWebViewController.swift in Sources */,
+				03D522712125645E0069A6AE /* FMControlPanelViewController.swift in Sources */,
+				03E3D6EE21252175001FA8F3 /* main.m in Sources */,
+				03D52275212667620069A6AE /* FMUtils.swift in Sources */,
+				0369CF5A2127BDCB00BDE38D /* FMAlbumPicView.swift in Sources */,
+				03E3D6E621252174001FA8F3 /* AppDelegate.m in Sources */,
+				03D5226A21255BD10069A6AE /* StatusBarController.swift in Sources */,
+				03E3D6FA212526AF001FA8F3 /* FMWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03BC0D872127D6F600F4B7CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BC0D862127D6F600F4B7CA /* zh-Hans */,
+				03BC0D892127D75100F4B7CA /* en */,
+				03BDAA812127D83F001A1287 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03E3D6E921252175001FA8F3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E3D6EA21252175001FA8F3 /* Base */,
+				03D52284212D03710069A6AE /* zh-Hans */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E3D6F021252175001FA8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03E3D6F121252175001FA8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03E3D6F321252175001FA8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DouFM/DouFM.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K5BF8D7QAD;
+				INFOPLIST_FILE = DouFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cissusnar.doubanFM;
+				PRODUCT_NAME = DouFM;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DouFM/Common/DouFM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		03E3D6F421252175001FA8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DouFM/DouFM-Release.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K5BF8D7QAD;
+				INFOPLIST_FILE = DouFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cissusnar.doubanFM;
+				PRODUCT_NAME = DouFM;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DouFM/Common/DouFM-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E3D6DC21252174001FA8F3 /* Build configuration list for PBXProject "DouFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E3D6F021252175001FA8F3 /* Debug */,
+				03E3D6F121252175001FA8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E3D6F221252175001FA8F3 /* Build configuration list for PBXNativeTarget "DouFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E3D6F321252175001FA8F3 /* Debug */,
+				03E3D6F421252175001FA8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E3D6D921252174001FA8F3 /* Project object */;
+}
