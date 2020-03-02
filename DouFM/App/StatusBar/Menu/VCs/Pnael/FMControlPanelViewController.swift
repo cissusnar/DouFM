@@ -20,6 +20,10 @@ class FMControlPanelViewController: NSViewController {
 
     static let shared = FMControlPanelViewController(nibName: NSNib.Name(rawValue: "FMControlPanelViewController"), bundle: nil)
     
+    @objc class func sharedInstance() -> FMControlPanelViewController {
+        return shared
+    }
+    
     weak var delegate : FMControlProtocol?
     
     @IBOutlet weak var fastForward: NSButton!

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0369CF5A2127BDCB00BDE38D /* FMAlbumPicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369CF592127BDCB00BDE38D /* FMAlbumPicView.swift */; };
+		0373C047240CE4360027005E /* FMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373C046240CE4360027005E /* FMApplication.m */; };
 		03BC0D852127D6F600F4B7CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03BC0D872127D6F600F4B7CA /* InfoPlist.strings */; };
 		03D5226A21255BD10069A6AE /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5226921255BD10069A6AE /* StatusBarController.swift */; };
 		03D5226C21255CDE0069A6AE /* FMControlPanelMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5226B21255CDE0069A6AE /* FMControlPanelMenuManager.swift */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		0369CF572125D45700BDE38D /* DouFM-Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DouFM-Release.entitlements"; sourceTree = "<group>"; };
 		0369CF592127BDCB00BDE38D /* FMAlbumPicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAlbumPicView.swift; sourceTree = "<group>"; };
+		0373C045240CE4360027005E /* FMApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMApplication.h; sourceTree = "<group>"; };
+		0373C046240CE4360027005E /* FMApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMApplication.m; sourceTree = "<group>"; };
 		03BC0D862127D6F600F4B7CA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		03BC0D892127D75100F4B7CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03BDAA812127D83F001A1287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				03E3D6E921252175001FA8F3 /* MainMenu.xib */,
 				03E3D6E421252174001FA8F3 /* AppDelegate.h */,
 				03E3D6E521252174001FA8F3 /* AppDelegate.m */,
+				0373C045240CE4360027005E /* FMApplication.h */,
+				0373C046240CE4360027005E /* FMApplication.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				03E3D6EE21252175001FA8F3 /* main.m in Sources */,
 				03D52275212667620069A6AE /* FMUtils.swift in Sources */,
 				0369CF5A2127BDCB00BDE38D /* FMAlbumPicView.swift in Sources */,
+				0373C047240CE4360027005E /* FMApplication.m in Sources */,
 				03E3D6E621252174001FA8F3 /* AppDelegate.m in Sources */,
 				03D5226A21255BD10069A6AE /* StatusBarController.swift in Sources */,
 				03E3D6FA212526AF001FA8F3 /* FMWindowController.swift in Sources */,
@@ -443,6 +449,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = K5BF8D7QAD;
 				INFOPLIST_FILE = DouFM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,6 +457,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cissusnar.doubanFM;
 				PRODUCT_NAME = DouFM;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -468,6 +476,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = K5BF8D7QAD;
 				INFOPLIST_FILE = DouFM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +484,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cissusnar.doubanFM;
 				PRODUCT_NAME = DouFM;
 				PROVISIONING_PROFILE_SPECIFIER = "";
